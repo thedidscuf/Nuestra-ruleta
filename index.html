@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="roulette-colors.css">
+    <link rel="stylesheet" href="roulette-rotations.css">
+    <link rel="stylesheet" href="roulette.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"
+        integrity="sha512-8dd1tvyYKs7krPZo/qPzX9ozUNlEl1zjPMx2ndfZM8Rn2fIhC91EgFJjOWDVX9PqbycFexiigjxCMb8NkC//Yw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ruleta</title>
+</head>
+
+<body>
+
+    <main>
+        <audio id="roulette-sound" preload="auto">
+            <source src="ruleta.mp3" type="audio/mpeg">
+            <source src="roulette-sound.ogg" type="audio/ogg">
+        </audio>
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <section class="roulette-container w-100">
+                        <div id="selector"></div>
+                        <div id="roulette">
+                            <div class="roulette-section">
+                                <div class="roulette-section-container">
+                                    <p>20 besitos en el cuello</p>
+                                </div>
+                            </div>
+
+                            <div class="roulette-section">
+                                <div class="roulette-section-container">
+                                    <p>15 besitos en la carita</p>
+                                </div>
+                            </div>
+
+                            <div class="roulette-section">
+                                <div class="roulette-section-container">
+                                    <p>30 besitos en donde quieras</p>
+                                </div>
+                            </div>
+
+                            <div class="roulette-section">
+                                <div class="roulette-section-container">
+                                    <p>25 besitos en las manos</p>
+                                </div>
+                            </div>
+
+                            <div class="roulette-section">
+                                <div class="roulette-section-container">
+                                    <p>Sube una historia a ig de mi</p>
+                                </div>
+                            </div>
+
+                            <div class="roulette-section">
+                                <div class="roulette-section-container">
+                                    <p>Mirame los ojos por 3 minutos</p>
+                                </div>
+                            </div>
+
+                            <div class="roulette-section">
+                                <div class="roulette-section-container">
+                                    <p>Escuchemos musica</p>
+                                </div>
+                            </div>
+
+                            <div class="roulette-section">
+                                <div class="roulette-section-container">
+                                    <p>Vale por lo que tu quieras</p>
+                                </div>
+                            </div>
+
+                            <div class="roulette-section">
+                                <div class="roulette-section-container">
+                                    <p>Orejita por 2 minutos</p>
+                                </div>
+                            </div>
+
+                            <div class="roulette-section">
+                                <div class="roulette-section-container">
+                                    <p>5 segundos con mi telefono</p>
+                                </div>
+                            </div>
+
+                            <div class="roulette-section">
+                                <div class="roulette-section-container">
+                                    <p>Me dedicarias algo</p>
+                                </div>
+                            </div>
+
+                            <div class="roulette-section">
+                                <div class="roulette-section-container">
+                                    <p>Vuelve a grabar</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="button-container">
+                            <button type="button" id="spin">Dale a ¡Girar!</button>
+                            <button type="button" id="reset">Vuelve a girar amor!</button>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
